@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="pl">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>NextService - Słownik pojęć HTML</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <h1>Słownik pojęć HTML</h1>
+
+  <nav>
+    <ul>
+      <li style="list-style-type: circle"><a href="index.html">Strona główna</a></li>
+      <li style="list-style-type: circle"><a href="artykuly.html">Artykuły</a></li>
+      <li style="list-style-type: square"><a href="slownik.html">Słownik</a></li>
+    </ul>
+  </nav>
+
+  <p><em>Krótki wstęp:</em> Ten słownik zawiera podstawowe pojęcia używane podczas nauki HTML.</p>
+
+  <dl>
+    <dt>HTML</dt>
+    <dd><strong>HyperText Markup Language</strong> — język znaczników używany do tworzenia <code>stron</code> internetowych. Przykład: <code>&lt;p&gt;Tekst&lt;/p&gt;</code></dd>
+
+    <dt>CSS</dt>
+    <dd><strong>Cascading Style Sheets</strong> — stylowanie <code>elementów</code> HTML, np. <code>color</code>, <code>font-size</code>.</dd>
+
+    <dt>tag</dt>
+    <dd><strong>Znacznik</strong> — składnik <code>&lt;h1&gt;</code>, <code>&lt;p&gt;</code> definiujący strukturę dokumentu.</dd>
+
+    <dt>atrybut</dt>
+    <dd><strong>Atrybut</strong> — dodatkowa informacja dla znacznika, np. <code>href</code> w <code>&lt;a&gt;</code>.</dd>
+
+    <dt>element</dt>
+    <dd><strong>Element</strong> — kompletny komponent, np. <code>&lt;a&gt;Link&lt;/a&gt;</code>, składa się ze znacznika otwierającego i zamykającego.</dd>
+
+    <dt>DOM</dt>
+    <dd><strong>Document Object Model</strong> — reprezentacja dokumentu jako <em>obiektów</em> w pamięci przeglądarki.</dd>
+  </dl>
+
+  <h2>Znaczniki formatowania</h2>
+  <ul>
+    <li><strong>&lt;strong&gt;</strong> — pogrubia tekst (wyraża wagę).</li>
+    <li><em>&lt;em&gt;</em> — kursywa (nacisk).</li>
+    <li><u>&lt;u&gt;</u> — podkreślenie.</li>
+    <li><s>&lt;s&gt;</s> — przekreślenie.</li>
+    <li><mark>&lt;mark&gt;</mark> — wyróżnienie (tło).</li>
+    <li><sup>&lt;sup&gt;</sup> — indeks górny.</li>
+    <li><sub>&lt;sub&gt;</sub> — indeks dolny.</li>
+    <li><code>&lt;code&gt;</code> — fragment kodu monospaced.</li>
+    <li><blockquote>&lt;blockquote&gt;</blockquote> — zacytowana treść.</li>
+  </ul>
+
+  <h2>Tabela porównawcza</h2>
+  <table style="border: 1px solid black;">
+    <thead>
+      <tr>
+        <th>Znacznik</th>
+        <th>Efekt</th>
+        <th>Przykład użycia</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>&lt;strong&gt;</td>
+        <td>Pogrubienie</td>
+        <td><strong>Przykład</strong></td>
+      </tr>
+      <tr>
+        <td>&lt;em&gt;</td>
+        <td>Kursywa / nacisk</td>
+        <td><em>Przykład</em></td>
+      </tr>
+      <tr>
+        <td>&lt;u&gt;</td>
+        <td>Podkreślenie</td>
+        <td><u>Przykład</u></td>
+      </tr>
+      <tr>
+        <td>&lt;s&gt;</td>
+        <td>Przekreślenie</td>
+        <td><s>Przykład</s></td>
+      </tr>
+    </tbody>
+  </table>
+
+  <footer>
+    <p>&copy; NextService — słownik</p>
+  </footer>
+
+  <script src="js/app.js"></script>
+</body>
+
+</html>
